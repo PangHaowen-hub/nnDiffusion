@@ -16,6 +16,7 @@ import shutil
 from time import sleep
 from typing import Tuple
 from typing import Union
+from typing import List
 
 import SimpleITK
 import numpy as np
@@ -116,7 +117,7 @@ class DefaultPreprocessor(object):
             seg = seg.astype(np.int8)
         return data, seg, properties
 
-    def run_case(self, image_files: List[str], seg_file: Union[str, None], plans_manager: PlansManager,
+    def run_case(self, image_files: List[str], seg_file: Union[str, List[str], Tuple[str, ...], None], plans_manager: PlansManager,
                  configuration_manager: ConfigurationManager,
                  dataset_json: Union[dict, str]):
         """
@@ -136,7 +137,12 @@ class DefaultPreprocessor(object):
 
         # if possible, load seg
         if seg_file is not None:
-            seg, _ = rw.read_seg(seg_file)
+            # Allow multi-target files for diffusion-style datasets:
+            # seg_file can be a list/tuple of image files and will be read as stacked channels.
+            if isinstance(seg_file, (list, tuple)):
+                seg, _ = rw.read_images(seg_file)
+            else:
+                seg, _ = rw.read_seg(seg_file)
         else:
             seg = None
 
@@ -146,7 +152,7 @@ class DefaultPreprocessor(object):
                                       dataset_json)
         return data, seg, data_properties
 
-    def run_case_save(self, output_filename_truncated: str, image_files: List[str], seg_file: str,
+    def run_case_save(self, output_filename_truncated: str, image_files: List[str], seg_file: Union[str, List[str], Tuple[str, ...]],
                       plans_manager: PlansManager, configuration_manager: ConfigurationManager,
                       dataset_json: Union[dict, str]):
         data, seg, properties = self.run_case(image_files, seg_file, plans_manager, configuration_manager, dataset_json)

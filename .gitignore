@@ -99,7 +99,7 @@ ENV/
 *.txt
 .idea/*
 *.png
-# *.nii.gz  # nifti files needed for example_data for github actions tests
+*.nii.gz  # nifti files needed for example_data for github actions tests
 *.nii
 *.tif
 *.bmp
@@ -110,6 +110,7 @@ ENV/
 *.png
 *.jpg
 *.jpeg
+*.nii.gz
 
 *.model
 
@@ -117,3 +118,20 @@ ENV/
 
 CLAUDE.md
 AGENTS.md
+
+.vscode/
+# Local/private experiment artifacts
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.csv
+*.tsv
+*.xlsx
+wandb/
+runs/
+logs/
+outputs/
+checkpoints/
+.DS_Store

@@ -130,9 +130,10 @@ def run_ddp(rank, dataset_name_or_id, configuration, fold, tr, p, disable_checkp
     if not val:
         nnunet_trainer.run_training()
 
-    if val_with_best:
-        nnunet_trainer.load_checkpoint(join(nnunet_trainer.output_folder, 'checkpoint_best.pth'))
-    nnunet_trainer.perform_actual_validation(npz)
+    if val or val_with_best:
+        if val_with_best:
+            nnunet_trainer.load_checkpoint(join(nnunet_trainer.output_folder, 'checkpoint_best.pth'))
+        nnunet_trainer.perform_actual_validation(npz)
     cleanup_ddp()
 
 
@@ -208,9 +209,10 @@ def run_training(dataset_name_or_id: Union[str, int],
         if not only_run_validation:
             nnunet_trainer.run_training()
 
-        if val_with_best:
-            nnunet_trainer.load_checkpoint(join(nnunet_trainer.output_folder, 'checkpoint_best.pth'))
-        nnunet_trainer.perform_actual_validation(export_validation_probabilities)
+        if only_run_validation or val_with_best:
+            if val_with_best:
+                nnunet_trainer.load_checkpoint(join(nnunet_trainer.output_folder, 'checkpoint_best.pth'))
+            nnunet_trainer.perform_actual_validation(export_validation_probabilities)
 
 
 def run_training_entry():
@@ -222,10 +224,18 @@ def run_training_entry():
                         help="Configuration that should be trained")
     parser.add_argument('fold', type=str,
                         help='Fold of the 5-fold cross-validation. Should be an int between 0 and 4.')
-    parser.add_argument('-tr', type=str, required=False, default='nnUNetTrainer',
-                        help='[OPTIONAL] Use this flag to specify a custom trainer. Default: nnUNetTrainer')
-    parser.add_argument('-p', type=str, required=False, default='nnUNetPlans',
-                        help='[OPTIONAL] Use this flag to specify a custom plans identifier. Default: nnUNetPlans')
+    _VALID_TRAINERS = [
+        'nnUNetTrainerDiffusion_ddpm',
+        'nnUNetTrainerDiffusion_flow_matching',
+        'nnUNetTrainerDiffusion_diffusion_bridge',
+    ]
+    parser.add_argument('-tr', type=str, required=False, choices=_VALID_TRAINERS,
+                        default='nnUNetTrainerDiffusion_ddpm',
+                        help='[OPTIONAL] Diffusion trainer variant. Default: nnUNetTrainerDiffusion_ddpm.\n'
+                             'Available: ' + ', '.join(_VALID_TRAINERS) + '\n'
+                             'The trainer name selects the diffusion method.')
+    parser.add_argument('-p', type=str, required=False, default='nnUNetPlansDiffusion',
+                        help='[OPTIONAL] Use this flag to specify a custom plans identifier. Default: nnUNetPlansDiffusion')
     parser.add_argument('-pretrained_weights', type=str, required=False, default=None,
                         help='[OPTIONAL] path to nnU-Net checkpoint file to be used as pretrained model. Will only '
                              'be used when actually training. Beta. Use with caution.')

@@ -1,0 +1,1544 @@
+{
+    "channel_names": {
+        "0": "T1CE",
+        "1": "T2",
+        "2": "FLAIR"
+    },
+    "numTest": 219,
+    "file_ending": ".nii.gz",
+    "dataset": {
+        "BraTS-GLI-00001-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00001-000/BraTS-GLI-00001-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00001-000/BraTS-GLI-00001-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00001-000/BraTS-GLI-00001-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00001-001": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00001-001/BraTS-GLI-00001-001-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00001-001/BraTS-GLI-00001-001-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00001-001/BraTS-GLI-00001-001-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00013-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00013-000/BraTS-GLI-00013-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00013-000/BraTS-GLI-00013-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00013-000/BraTS-GLI-00013-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00013-001": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00013-001/BraTS-GLI-00013-001-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00013-001/BraTS-GLI-00013-001-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00013-001/BraTS-GLI-00013-001-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00015-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00015-000/BraTS-GLI-00015-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00015-000/BraTS-GLI-00015-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00015-000/BraTS-GLI-00015-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00015-001": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00015-001/BraTS-GLI-00015-001-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00015-001/BraTS-GLI-00015-001-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00015-001/BraTS-GLI-00015-001-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00027-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00027-000/BraTS-GLI-00027-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00027-000/BraTS-GLI-00027-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00027-000/BraTS-GLI-00027-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00037-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00037-000/BraTS-GLI-00037-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00037-000/BraTS-GLI-00037-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00037-000/BraTS-GLI-00037-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00047-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00047-000/BraTS-GLI-00047-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00047-000/BraTS-GLI-00047-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00047-000/BraTS-GLI-00047-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00079-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00079-000/BraTS-GLI-00079-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00079-000/BraTS-GLI-00079-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00079-000/BraTS-GLI-00079-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00080-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00080-000/BraTS-GLI-00080-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00080-000/BraTS-GLI-00080-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00080-000/BraTS-GLI-00080-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00080-001": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00080-001/BraTS-GLI-00080-001-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00080-001/BraTS-GLI-00080-001-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00080-001/BraTS-GLI-00080-001-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00082-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00082-000/BraTS-GLI-00082-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00082-000/BraTS-GLI-00082-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00082-000/BraTS-GLI-00082-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00091-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00091-000/BraTS-GLI-00091-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00091-000/BraTS-GLI-00091-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00091-000/BraTS-GLI-00091-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00114-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00114-000/BraTS-GLI-00114-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00114-000/BraTS-GLI-00114-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00114-000/BraTS-GLI-00114-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00119-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00119-000/BraTS-GLI-00119-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00119-000/BraTS-GLI-00119-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00119-000/BraTS-GLI-00119-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00125-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00125-000/BraTS-GLI-00125-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00125-000/BraTS-GLI-00125-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00125-000/BraTS-GLI-00125-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00129-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00129-000/BraTS-GLI-00129-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00129-000/BraTS-GLI-00129-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00129-000/BraTS-GLI-00129-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00135-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00135-000/BraTS-GLI-00135-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00135-000/BraTS-GLI-00135-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00135-000/BraTS-GLI-00135-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00141-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00141-000/BraTS-GLI-00141-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00141-000/BraTS-GLI-00141-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00141-000/BraTS-GLI-00141-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00145-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00145-000/BraTS-GLI-00145-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00145-000/BraTS-GLI-00145-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00145-000/BraTS-GLI-00145-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00153-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00153-000/BraTS-GLI-00153-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00153-000/BraTS-GLI-00153-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00153-000/BraTS-GLI-00153-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00161-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00161-000/BraTS-GLI-00161-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00161-000/BraTS-GLI-00161-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00161-000/BraTS-GLI-00161-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00163-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00163-000/BraTS-GLI-00163-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00163-000/BraTS-GLI-00163-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00163-000/BraTS-GLI-00163-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00174-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00174-000/BraTS-GLI-00174-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00174-000/BraTS-GLI-00174-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00174-000/BraTS-GLI-00174-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00181-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00181-000/BraTS-GLI-00181-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00181-000/BraTS-GLI-00181-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00181-000/BraTS-GLI-00181-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00182-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00182-000/BraTS-GLI-00182-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00182-000/BraTS-GLI-00182-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00182-000/BraTS-GLI-00182-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00190-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00190-000/BraTS-GLI-00190-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00190-000/BraTS-GLI-00190-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00190-000/BraTS-GLI-00190-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00200-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00200-000/BraTS-GLI-00200-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00200-000/BraTS-GLI-00200-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00200-000/BraTS-GLI-00200-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00208-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00208-000/BraTS-GLI-00208-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00208-000/BraTS-GLI-00208-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00208-000/BraTS-GLI-00208-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00213-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00213-000/BraTS-GLI-00213-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00213-000/BraTS-GLI-00213-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00213-000/BraTS-GLI-00213-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00229-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00229-000/BraTS-GLI-00229-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00229-000/BraTS-GLI-00229-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00229-000/BraTS-GLI-00229-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00252-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00252-000/BraTS-GLI-00252-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00252-000/BraTS-GLI-00252-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00252-000/BraTS-GLI-00252-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00256-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00256-000/BraTS-GLI-00256-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00256-000/BraTS-GLI-00256-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00256-000/BraTS-GLI-00256-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00264-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00264-000/BraTS-GLI-00264-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00264-000/BraTS-GLI-00264-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00264-000/BraTS-GLI-00264-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00287-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00287-000/BraTS-GLI-00287-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00287-000/BraTS-GLI-00287-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00287-000/BraTS-GLI-00287-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00307-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00307-000/BraTS-GLI-00307-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00307-000/BraTS-GLI-00307-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00307-000/BraTS-GLI-00307-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00323-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00323-000/BraTS-GLI-00323-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00323-000/BraTS-GLI-00323-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00323-000/BraTS-GLI-00323-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00333-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00333-000/BraTS-GLI-00333-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00333-000/BraTS-GLI-00333-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00333-000/BraTS-GLI-00333-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00335-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00335-000/BraTS-GLI-00335-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00335-000/BraTS-GLI-00335-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00335-000/BraTS-GLI-00335-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00337-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00337-000/BraTS-GLI-00337-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00337-000/BraTS-GLI-00337-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00337-000/BraTS-GLI-00337-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00355-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00355-000/BraTS-GLI-00355-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00355-000/BraTS-GLI-00355-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00355-000/BraTS-GLI-00355-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00372-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00372-000/BraTS-GLI-00372-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00372-000/BraTS-GLI-00372-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00372-000/BraTS-GLI-00372-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00381-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00381-000/BraTS-GLI-00381-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00381-000/BraTS-GLI-00381-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00381-000/BraTS-GLI-00381-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00384-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00384-000/BraTS-GLI-00384-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00384-000/BraTS-GLI-00384-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00384-000/BraTS-GLI-00384-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00422-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00422-000/BraTS-GLI-00422-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00422-000/BraTS-GLI-00422-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00422-000/BraTS-GLI-00422-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00428-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00428-000/BraTS-GLI-00428-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00428-000/BraTS-GLI-00428-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00428-000/BraTS-GLI-00428-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00434-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00434-000/BraTS-GLI-00434-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00434-000/BraTS-GLI-00434-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00434-000/BraTS-GLI-00434-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00438-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00438-000/BraTS-GLI-00438-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00438-000/BraTS-GLI-00438-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00438-000/BraTS-GLI-00438-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00447-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00447-000/BraTS-GLI-00447-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00447-000/BraTS-GLI-00447-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00447-000/BraTS-GLI-00447-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00450-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00450-000/BraTS-GLI-00450-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00450-000/BraTS-GLI-00450-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00450-000/BraTS-GLI-00450-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00458-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00458-000/BraTS-GLI-00458-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00458-000/BraTS-GLI-00458-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00458-000/BraTS-GLI-00458-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00460-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00460-000/BraTS-GLI-00460-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00460-000/BraTS-GLI-00460-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00460-000/BraTS-GLI-00460-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00462-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00462-000/BraTS-GLI-00462-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00462-000/BraTS-GLI-00462-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00462-000/BraTS-GLI-00462-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00462-001": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00462-001/BraTS-GLI-00462-001-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00462-001/BraTS-GLI-00462-001-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00462-001/BraTS-GLI-00462-001-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00463-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00463-000/BraTS-GLI-00463-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00463-000/BraTS-GLI-00463-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00463-000/BraTS-GLI-00463-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00467-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00467-000/BraTS-GLI-00467-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00467-000/BraTS-GLI-00467-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00467-000/BraTS-GLI-00467-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00467-001": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00467-001/BraTS-GLI-00467-001-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00467-001/BraTS-GLI-00467-001-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00467-001/BraTS-GLI-00467-001-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00474-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00474-000/BraTS-GLI-00474-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00474-000/BraTS-GLI-00474-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00474-000/BraTS-GLI-00474-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00474-001": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00474-001/BraTS-GLI-00474-001-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00474-001/BraTS-GLI-00474-001-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00474-001/BraTS-GLI-00474-001-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00489-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00489-000/BraTS-GLI-00489-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00489-000/BraTS-GLI-00489-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00489-000/BraTS-GLI-00489-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00492-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00492-000/BraTS-GLI-00492-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00492-000/BraTS-GLI-00492-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00492-000/BraTS-GLI-00492-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00503-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00503-000/BraTS-GLI-00503-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00503-000/BraTS-GLI-00503-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00503-000/BraTS-GLI-00503-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00503-001": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00503-001/BraTS-GLI-00503-001-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00503-001/BraTS-GLI-00503-001-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00503-001/BraTS-GLI-00503-001-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00521-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00521-000/BraTS-GLI-00521-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00521-000/BraTS-GLI-00521-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00521-000/BraTS-GLI-00521-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00521-001": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00521-001/BraTS-GLI-00521-001-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00521-001/BraTS-GLI-00521-001-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00521-001/BraTS-GLI-00521-001-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00535-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00535-000/BraTS-GLI-00535-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00535-000/BraTS-GLI-00535-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00535-000/BraTS-GLI-00535-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00535-001": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00535-001/BraTS-GLI-00535-001-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00535-001/BraTS-GLI-00535-001-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00535-001/BraTS-GLI-00535-001-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00553-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00553-000/BraTS-GLI-00553-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00553-000/BraTS-GLI-00553-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00553-000/BraTS-GLI-00553-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00553-001": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00553-001/BraTS-GLI-00553-001-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00553-001/BraTS-GLI-00553-001-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00553-001/BraTS-GLI-00553-001-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00560-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00560-000/BraTS-GLI-00560-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00560-000/BraTS-GLI-00560-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00560-000/BraTS-GLI-00560-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00560-001": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00560-001/BraTS-GLI-00560-001-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00560-001/BraTS-GLI-00560-001-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00560-001/BraTS-GLI-00560-001-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00573-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00573-000/BraTS-GLI-00573-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00573-000/BraTS-GLI-00573-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00573-000/BraTS-GLI-00573-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00585-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00585-000/BraTS-GLI-00585-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00585-000/BraTS-GLI-00585-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00585-000/BraTS-GLI-00585-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00592-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00592-000/BraTS-GLI-00592-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00592-000/BraTS-GLI-00592-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00592-000/BraTS-GLI-00592-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00595-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00595-000/BraTS-GLI-00595-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00595-000/BraTS-GLI-00595-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00595-000/BraTS-GLI-00595-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00603-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00603-000/BraTS-GLI-00603-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00603-000/BraTS-GLI-00603-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00603-000/BraTS-GLI-00603-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00644-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00644-000/BraTS-GLI-00644-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00644-000/BraTS-GLI-00644-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00644-000/BraTS-GLI-00644-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00647-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00647-000/BraTS-GLI-00647-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00647-000/BraTS-GLI-00647-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00647-000/BraTS-GLI-00647-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00647-001": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00647-001/BraTS-GLI-00647-001-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00647-001/BraTS-GLI-00647-001-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00647-001/BraTS-GLI-00647-001-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00662-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00662-000/BraTS-GLI-00662-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00662-000/BraTS-GLI-00662-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00662-000/BraTS-GLI-00662-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00671-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00671-000/BraTS-GLI-00671-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00671-000/BraTS-GLI-00671-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00671-000/BraTS-GLI-00671-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00681-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00681-000/BraTS-GLI-00681-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00681-000/BraTS-GLI-00681-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00681-000/BraTS-GLI-00681-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00699-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00699-000/BraTS-GLI-00699-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00699-000/BraTS-GLI-00699-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00699-000/BraTS-GLI-00699-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00699-001": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00699-001/BraTS-GLI-00699-001-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00699-001/BraTS-GLI-00699-001-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00699-001/BraTS-GLI-00699-001-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00702-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00702-000/BraTS-GLI-00702-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00702-000/BraTS-GLI-00702-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00702-000/BraTS-GLI-00702-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00702-001": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00702-001/BraTS-GLI-00702-001-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00702-001/BraTS-GLI-00702-001-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00702-001/BraTS-GLI-00702-001-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00712-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00712-000/BraTS-GLI-00712-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00712-000/BraTS-GLI-00712-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00712-000/BraTS-GLI-00712-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00712-001": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00712-001/BraTS-GLI-00712-001-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00712-001/BraTS-GLI-00712-001-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00712-001/BraTS-GLI-00712-001-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00719-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00719-000/BraTS-GLI-00719-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00719-000/BraTS-GLI-00719-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00719-000/BraTS-GLI-00719-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00719-001": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00719-001/BraTS-GLI-00719-001-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00719-001/BraTS-GLI-00719-001-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00719-001/BraTS-GLI-00719-001-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00721-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00721-000/BraTS-GLI-00721-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00721-000/BraTS-GLI-00721-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00721-000/BraTS-GLI-00721-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00721-001": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00721-001/BraTS-GLI-00721-001-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00721-001/BraTS-GLI-00721-001-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00721-001/BraTS-GLI-00721-001-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00749-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00749-000/BraTS-GLI-00749-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00749-000/BraTS-GLI-00749-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00749-000/BraTS-GLI-00749-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00762-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00762-000/BraTS-GLI-00762-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00762-000/BraTS-GLI-00762-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00762-000/BraTS-GLI-00762-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00762-001": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00762-001/BraTS-GLI-00762-001-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00762-001/BraTS-GLI-00762-001-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00762-001/BraTS-GLI-00762-001-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00769-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00769-000/BraTS-GLI-00769-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00769-000/BraTS-GLI-00769-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00769-000/BraTS-GLI-00769-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00779-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00779-000/BraTS-GLI-00779-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00779-000/BraTS-GLI-00779-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00779-000/BraTS-GLI-00779-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00779-001": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00779-001/BraTS-GLI-00779-001-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00779-001/BraTS-GLI-00779-001-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00779-001/BraTS-GLI-00779-001-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00821-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00821-000/BraTS-GLI-00821-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00821-000/BraTS-GLI-00821-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00821-000/BraTS-GLI-00821-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00822-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00822-000/BraTS-GLI-00822-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00822-000/BraTS-GLI-00822-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00822-000/BraTS-GLI-00822-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00825-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00825-000/BraTS-GLI-00825-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00825-000/BraTS-GLI-00825-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00825-000/BraTS-GLI-00825-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00826-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00826-000/BraTS-GLI-00826-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00826-000/BraTS-GLI-00826-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00826-000/BraTS-GLI-00826-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00829-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00829-000/BraTS-GLI-00829-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00829-000/BraTS-GLI-00829-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00829-000/BraTS-GLI-00829-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00833-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00833-000/BraTS-GLI-00833-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00833-000/BraTS-GLI-00833-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00833-000/BraTS-GLI-00833-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00997-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-00997-000/BraTS-GLI-00997-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00997-000/BraTS-GLI-00997-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-00997-000/BraTS-GLI-00997-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01006-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01006-000/BraTS-GLI-01006-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01006-000/BraTS-GLI-01006-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01006-000/BraTS-GLI-01006-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01667-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01667-000/BraTS-GLI-01667-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01667-000/BraTS-GLI-01667-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01667-000/BraTS-GLI-01667-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01668-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01668-000/BraTS-GLI-01668-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01668-000/BraTS-GLI-01668-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01668-000/BraTS-GLI-01668-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01669-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01669-000/BraTS-GLI-01669-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01669-000/BraTS-GLI-01669-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01669-000/BraTS-GLI-01669-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01670-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01670-000/BraTS-GLI-01670-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01670-000/BraTS-GLI-01670-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01670-000/BraTS-GLI-01670-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01671-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01671-000/BraTS-GLI-01671-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01671-000/BraTS-GLI-01671-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01671-000/BraTS-GLI-01671-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01672-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01672-000/BraTS-GLI-01672-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01672-000/BraTS-GLI-01672-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01672-000/BraTS-GLI-01672-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01673-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01673-000/BraTS-GLI-01673-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01673-000/BraTS-GLI-01673-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01673-000/BraTS-GLI-01673-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01674-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01674-000/BraTS-GLI-01674-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01674-000/BraTS-GLI-01674-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01674-000/BraTS-GLI-01674-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01675-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01675-000/BraTS-GLI-01675-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01675-000/BraTS-GLI-01675-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01675-000/BraTS-GLI-01675-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01676-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01676-000/BraTS-GLI-01676-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01676-000/BraTS-GLI-01676-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01676-000/BraTS-GLI-01676-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01677-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01677-000/BraTS-GLI-01677-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01677-000/BraTS-GLI-01677-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01677-000/BraTS-GLI-01677-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01678-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01678-000/BraTS-GLI-01678-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01678-000/BraTS-GLI-01678-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01678-000/BraTS-GLI-01678-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01679-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01679-000/BraTS-GLI-01679-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01679-000/BraTS-GLI-01679-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01679-000/BraTS-GLI-01679-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01680-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01680-000/BraTS-GLI-01680-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01680-000/BraTS-GLI-01680-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01680-000/BraTS-GLI-01680-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01681-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01681-000/BraTS-GLI-01681-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01681-000/BraTS-GLI-01681-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01681-000/BraTS-GLI-01681-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01682-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01682-000/BraTS-GLI-01682-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01682-000/BraTS-GLI-01682-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01682-000/BraTS-GLI-01682-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01683-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01683-000/BraTS-GLI-01683-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01683-000/BraTS-GLI-01683-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01683-000/BraTS-GLI-01683-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01684-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01684-000/BraTS-GLI-01684-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01684-000/BraTS-GLI-01684-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01684-000/BraTS-GLI-01684-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01685-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01685-000/BraTS-GLI-01685-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01685-000/BraTS-GLI-01685-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01685-000/BraTS-GLI-01685-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01686-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01686-000/BraTS-GLI-01686-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01686-000/BraTS-GLI-01686-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01686-000/BraTS-GLI-01686-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01687-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01687-000/BraTS-GLI-01687-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01687-000/BraTS-GLI-01687-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01687-000/BraTS-GLI-01687-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01688-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01688-000/BraTS-GLI-01688-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01688-000/BraTS-GLI-01688-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01688-000/BraTS-GLI-01688-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01689-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01689-000/BraTS-GLI-01689-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01689-000/BraTS-GLI-01689-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01689-000/BraTS-GLI-01689-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01690-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01690-000/BraTS-GLI-01690-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01690-000/BraTS-GLI-01690-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01690-000/BraTS-GLI-01690-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01691-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01691-000/BraTS-GLI-01691-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01691-000/BraTS-GLI-01691-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01691-000/BraTS-GLI-01691-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01692-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01692-000/BraTS-GLI-01692-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01692-000/BraTS-GLI-01692-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01692-000/BraTS-GLI-01692-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01693-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01693-000/BraTS-GLI-01693-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01693-000/BraTS-GLI-01693-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01693-000/BraTS-GLI-01693-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01694-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01694-000/BraTS-GLI-01694-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01694-000/BraTS-GLI-01694-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01694-000/BraTS-GLI-01694-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01695-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01695-000/BraTS-GLI-01695-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01695-000/BraTS-GLI-01695-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01695-000/BraTS-GLI-01695-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01696-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01696-000/BraTS-GLI-01696-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01696-000/BraTS-GLI-01696-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01696-000/BraTS-GLI-01696-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01697-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01697-000/BraTS-GLI-01697-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01697-000/BraTS-GLI-01697-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01697-000/BraTS-GLI-01697-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01698-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01698-000/BraTS-GLI-01698-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01698-000/BraTS-GLI-01698-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01698-000/BraTS-GLI-01698-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01699-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01699-000/BraTS-GLI-01699-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01699-000/BraTS-GLI-01699-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01699-000/BraTS-GLI-01699-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01700-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01700-000/BraTS-GLI-01700-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01700-000/BraTS-GLI-01700-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01700-000/BraTS-GLI-01700-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01701-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01701-000/BraTS-GLI-01701-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01701-000/BraTS-GLI-01701-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01701-000/BraTS-GLI-01701-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01702-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01702-000/BraTS-GLI-01702-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01702-000/BraTS-GLI-01702-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01702-000/BraTS-GLI-01702-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01703-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01703-000/BraTS-GLI-01703-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01703-000/BraTS-GLI-01703-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01703-000/BraTS-GLI-01703-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01704-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01704-000/BraTS-GLI-01704-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01704-000/BraTS-GLI-01704-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01704-000/BraTS-GLI-01704-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01705-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01705-000/BraTS-GLI-01705-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01705-000/BraTS-GLI-01705-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01705-000/BraTS-GLI-01705-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01706-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01706-000/BraTS-GLI-01706-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01706-000/BraTS-GLI-01706-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01706-000/BraTS-GLI-01706-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01707-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01707-000/BraTS-GLI-01707-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01707-000/BraTS-GLI-01707-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01707-000/BraTS-GLI-01707-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01708-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01708-000/BraTS-GLI-01708-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01708-000/BraTS-GLI-01708-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01708-000/BraTS-GLI-01708-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01709-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01709-000/BraTS-GLI-01709-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01709-000/BraTS-GLI-01709-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01709-000/BraTS-GLI-01709-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01710-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01710-000/BraTS-GLI-01710-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01710-000/BraTS-GLI-01710-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01710-000/BraTS-GLI-01710-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01711-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01711-000/BraTS-GLI-01711-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01711-000/BraTS-GLI-01711-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01711-000/BraTS-GLI-01711-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01712-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01712-000/BraTS-GLI-01712-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01712-000/BraTS-GLI-01712-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01712-000/BraTS-GLI-01712-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01713-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01713-000/BraTS-GLI-01713-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01713-000/BraTS-GLI-01713-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01713-000/BraTS-GLI-01713-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01714-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01714-000/BraTS-GLI-01714-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01714-000/BraTS-GLI-01714-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01714-000/BraTS-GLI-01714-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01715-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01715-000/BraTS-GLI-01715-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01715-000/BraTS-GLI-01715-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01715-000/BraTS-GLI-01715-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01716-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01716-000/BraTS-GLI-01716-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01716-000/BraTS-GLI-01716-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01716-000/BraTS-GLI-01716-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01717-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01717-000/BraTS-GLI-01717-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01717-000/BraTS-GLI-01717-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01717-000/BraTS-GLI-01717-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01718-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01718-000/BraTS-GLI-01718-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01718-000/BraTS-GLI-01718-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01718-000/BraTS-GLI-01718-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01719-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01719-000/BraTS-GLI-01719-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01719-000/BraTS-GLI-01719-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01719-000/BraTS-GLI-01719-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01720-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01720-000/BraTS-GLI-01720-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01720-000/BraTS-GLI-01720-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01720-000/BraTS-GLI-01720-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01721-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01721-000/BraTS-GLI-01721-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01721-000/BraTS-GLI-01721-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01721-000/BraTS-GLI-01721-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01722-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01722-000/BraTS-GLI-01722-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01722-000/BraTS-GLI-01722-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01722-000/BraTS-GLI-01722-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01723-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01723-000/BraTS-GLI-01723-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01723-000/BraTS-GLI-01723-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01723-000/BraTS-GLI-01723-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01724-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01724-000/BraTS-GLI-01724-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01724-000/BraTS-GLI-01724-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01724-000/BraTS-GLI-01724-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01725-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01725-000/BraTS-GLI-01725-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01725-000/BraTS-GLI-01725-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01725-000/BraTS-GLI-01725-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01726-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01726-000/BraTS-GLI-01726-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01726-000/BraTS-GLI-01726-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01726-000/BraTS-GLI-01726-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01727-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01727-000/BraTS-GLI-01727-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01727-000/BraTS-GLI-01727-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01727-000/BraTS-GLI-01727-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01728-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01728-000/BraTS-GLI-01728-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01728-000/BraTS-GLI-01728-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01728-000/BraTS-GLI-01728-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01729-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01729-000/BraTS-GLI-01729-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01729-000/BraTS-GLI-01729-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01729-000/BraTS-GLI-01729-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01730-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01730-000/BraTS-GLI-01730-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01730-000/BraTS-GLI-01730-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01730-000/BraTS-GLI-01730-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01731-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01731-000/BraTS-GLI-01731-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01731-000/BraTS-GLI-01731-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01731-000/BraTS-GLI-01731-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01732-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01732-000/BraTS-GLI-01732-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01732-000/BraTS-GLI-01732-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01732-000/BraTS-GLI-01732-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01733-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01733-000/BraTS-GLI-01733-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01733-000/BraTS-GLI-01733-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01733-000/BraTS-GLI-01733-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01734-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01734-000/BraTS-GLI-01734-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01734-000/BraTS-GLI-01734-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01734-000/BraTS-GLI-01734-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01735-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01735-000/BraTS-GLI-01735-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01735-000/BraTS-GLI-01735-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01735-000/BraTS-GLI-01735-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01736-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01736-000/BraTS-GLI-01736-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01736-000/BraTS-GLI-01736-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01736-000/BraTS-GLI-01736-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01737-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01737-000/BraTS-GLI-01737-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01737-000/BraTS-GLI-01737-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01737-000/BraTS-GLI-01737-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01738-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01738-000/BraTS-GLI-01738-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01738-000/BraTS-GLI-01738-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01738-000/BraTS-GLI-01738-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01739-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01739-000/BraTS-GLI-01739-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01739-000/BraTS-GLI-01739-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01739-000/BraTS-GLI-01739-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01740-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01740-000/BraTS-GLI-01740-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01740-000/BraTS-GLI-01740-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01740-000/BraTS-GLI-01740-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01741-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01741-000/BraTS-GLI-01741-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01741-000/BraTS-GLI-01741-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01741-000/BraTS-GLI-01741-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01742-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01742-000/BraTS-GLI-01742-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01742-000/BraTS-GLI-01742-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01742-000/BraTS-GLI-01742-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01743-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01743-000/BraTS-GLI-01743-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01743-000/BraTS-GLI-01743-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01743-000/BraTS-GLI-01743-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01744-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01744-000/BraTS-GLI-01744-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01744-000/BraTS-GLI-01744-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01744-000/BraTS-GLI-01744-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01745-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01745-000/BraTS-GLI-01745-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01745-000/BraTS-GLI-01745-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01745-000/BraTS-GLI-01745-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01746-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01746-000/BraTS-GLI-01746-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01746-000/BraTS-GLI-01746-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01746-000/BraTS-GLI-01746-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01747-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01747-000/BraTS-GLI-01747-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01747-000/BraTS-GLI-01747-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01747-000/BraTS-GLI-01747-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01748-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01748-000/BraTS-GLI-01748-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01748-000/BraTS-GLI-01748-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01748-000/BraTS-GLI-01748-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01749-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01749-000/BraTS-GLI-01749-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01749-000/BraTS-GLI-01749-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01749-000/BraTS-GLI-01749-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01750-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01750-000/BraTS-GLI-01750-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01750-000/BraTS-GLI-01750-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01750-000/BraTS-GLI-01750-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01751-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01751-000/BraTS-GLI-01751-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01751-000/BraTS-GLI-01751-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01751-000/BraTS-GLI-01751-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01752-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01752-000/BraTS-GLI-01752-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01752-000/BraTS-GLI-01752-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01752-000/BraTS-GLI-01752-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01753-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01753-000/BraTS-GLI-01753-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01753-000/BraTS-GLI-01753-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01753-000/BraTS-GLI-01753-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01754-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01754-000/BraTS-GLI-01754-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01754-000/BraTS-GLI-01754-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01754-000/BraTS-GLI-01754-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01755-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01755-000/BraTS-GLI-01755-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01755-000/BraTS-GLI-01755-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01755-000/BraTS-GLI-01755-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01756-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01756-000/BraTS-GLI-01756-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01756-000/BraTS-GLI-01756-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01756-000/BraTS-GLI-01756-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01757-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01757-000/BraTS-GLI-01757-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01757-000/BraTS-GLI-01757-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01757-000/BraTS-GLI-01757-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01758-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01758-000/BraTS-GLI-01758-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01758-000/BraTS-GLI-01758-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01758-000/BraTS-GLI-01758-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01759-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01759-000/BraTS-GLI-01759-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01759-000/BraTS-GLI-01759-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01759-000/BraTS-GLI-01759-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01760-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01760-000/BraTS-GLI-01760-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01760-000/BraTS-GLI-01760-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01760-000/BraTS-GLI-01760-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01761-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01761-000/BraTS-GLI-01761-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01761-000/BraTS-GLI-01761-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01761-000/BraTS-GLI-01761-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01762-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01762-000/BraTS-GLI-01762-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01762-000/BraTS-GLI-01762-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01762-000/BraTS-GLI-01762-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01763-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01763-000/BraTS-GLI-01763-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01763-000/BraTS-GLI-01763-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01763-000/BraTS-GLI-01763-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01764-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01764-000/BraTS-GLI-01764-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01764-000/BraTS-GLI-01764-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01764-000/BraTS-GLI-01764-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01765-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01765-000/BraTS-GLI-01765-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01765-000/BraTS-GLI-01765-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01765-000/BraTS-GLI-01765-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01766-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01766-000/BraTS-GLI-01766-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01766-000/BraTS-GLI-01766-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01766-000/BraTS-GLI-01766-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01767-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01767-000/BraTS-GLI-01767-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01767-000/BraTS-GLI-01767-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01767-000/BraTS-GLI-01767-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01768-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01768-000/BraTS-GLI-01768-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01768-000/BraTS-GLI-01768-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01768-000/BraTS-GLI-01768-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01769-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01769-000/BraTS-GLI-01769-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01769-000/BraTS-GLI-01769-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01769-000/BraTS-GLI-01769-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01770-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01770-000/BraTS-GLI-01770-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01770-000/BraTS-GLI-01770-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01770-000/BraTS-GLI-01770-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01771-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01771-000/BraTS-GLI-01771-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01771-000/BraTS-GLI-01771-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01771-000/BraTS-GLI-01771-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01772-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01772-000/BraTS-GLI-01772-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01772-000/BraTS-GLI-01772-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01772-000/BraTS-GLI-01772-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01773-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01773-000/BraTS-GLI-01773-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01773-000/BraTS-GLI-01773-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01773-000/BraTS-GLI-01773-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01774-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01774-000/BraTS-GLI-01774-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01774-000/BraTS-GLI-01774-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01774-000/BraTS-GLI-01774-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01775-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01775-000/BraTS-GLI-01775-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01775-000/BraTS-GLI-01775-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01775-000/BraTS-GLI-01775-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01776-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01776-000/BraTS-GLI-01776-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01776-000/BraTS-GLI-01776-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01776-000/BraTS-GLI-01776-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01789-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01789-000/BraTS-GLI-01789-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01789-000/BraTS-GLI-01789-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01789-000/BraTS-GLI-01789-000-t2f.nii.gz"
+            ]
+        },
+        "BraTS-GLI-01790-000": {
+            "sources": [
+                "../data/imagesTs/BraTS-GLI-01790-000/BraTS-GLI-01790-000-t1c.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01790-000/BraTS-GLI-01790-000-t2w.nii.gz",
+                "../data/imagesTs/BraTS-GLI-01790-000/BraTS-GLI-01790-000-t2f.nii.gz"
+            ]
+        }
+    }
+}

@@ -63,9 +63,59 @@ def get_filenames_of_train_images_and_targets(raw_dataset_folder: str, dataset_j
     if 'dataset' in dataset_json.keys():
         dataset = dataset_json['dataset']
         for k in dataset.keys():
-            expanded_label_file = os.path.expandvars(dataset[k]['label'])
-            dataset[k]['label'] = os.path.abspath(join(raw_dataset_folder, expanded_label_file)) if not os.path.isabs(expanded_label_file) else expanded_label_file
-            dataset[k]['images'] = [os.path.abspath(join(raw_dataset_folder, os.path.expandvars(i))) if not os.path.isabs(os.path.expandvars(i)) else os.path.expandvars(i) for i in dataset[k]['images']]
+            entry = dataset[k]
+
+            # Support diffusion-style dataset.json:
+            # {
+            #   "sources": [...],
+            #   "targets": [...]
+            # }
+            if 'sources' in entry and 'targets' in entry:
+                srcs = entry['sources']
+                tgts = entry['targets']
+                if isinstance(srcs, str):
+                    srcs = [srcs]
+                if isinstance(tgts, str):
+                    tgts = [tgts]
+
+                entry['images'] = [
+                    os.path.abspath(join(raw_dataset_folder, os.path.expandvars(i)))
+                    if not os.path.isabs(os.path.expandvars(i)) else os.path.expandvars(i)
+                    for i in srcs
+                ]
+
+                tgt_abs = [
+                    os.path.abspath(join(raw_dataset_folder, os.path.expandvars(i)))
+                    if not os.path.isabs(os.path.expandvars(i)) else os.path.expandvars(i)
+                    for i in tgts
+                ]
+                # Keep compatibility with existing nnU-Net code paths:
+                # - single target channel -> string path
+                # - multi target channels -> list of paths
+                entry['label'] = tgt_abs[0] if len(tgt_abs) == 1 else tgt_abs
+                continue
+
+            # Original nnU-Net format:
+            # {
+            #   "images": [...],
+            #   "label": "..."
+            # }
+            if 'label' in entry:
+                if isinstance(entry['label'], (list, tuple)):
+                    entry['label'] = [
+                        os.path.abspath(join(raw_dataset_folder, os.path.expandvars(i)))
+                        if not os.path.isabs(os.path.expandvars(i)) else os.path.expandvars(i)
+                        for i in entry['label']
+                    ]
+                else:
+                    expanded_label_file = os.path.expandvars(entry['label'])
+                    entry['label'] = os.path.abspath(join(raw_dataset_folder, expanded_label_file)) if not os.path.isabs(expanded_label_file) else expanded_label_file
+            if 'images' in entry:
+                entry['images'] = [
+                    os.path.abspath(join(raw_dataset_folder, os.path.expandvars(i)))
+                    if not os.path.isabs(os.path.expandvars(i)) else os.path.expandvars(i)
+                    for i in entry['images']
+                ]
     else:
         identifiers = get_identifiers_from_splitted_dataset_folder(join(raw_dataset_folder, 'imagesTr'), dataset_json['file_ending'])
         images = create_lists_from_splitted_dataset_folder(join(raw_dataset_folder, 'imagesTr'), dataset_json['file_ending'], identifiers)

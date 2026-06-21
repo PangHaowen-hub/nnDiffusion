@@ -111,7 +111,7 @@ def preprocess_entry():
 def plan_and_preprocess_entry():
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument('-d', nargs='+', type=int,
+    parser.add_argument('-d', nargs='+', type=int, default=[13],
                         help="[REQUIRED] List of dataset IDs. Example: 2 4 5. This will run fingerprint extraction, experiment "
                              "planning and preprocessing for these datasets. Can of course also be just one dataset")
     parser.add_argument('-fpe', type=str, required=False, default='DatasetFingerprintExtractor',
@@ -139,7 +139,7 @@ def plan_and_preprocess_entry():
                              'affect patch and batch size and will '
                              'definitely affect your models performance! Only use this if you really know what you '
                              'are doing and NEVER use this without running the default nnU-Net first as a baseline.')
-    parser.add_argument('-preprocessor_name', default='DefaultPreprocessor', type=str, required=False,
+    parser.add_argument('-preprocessor_name', default='DiffusionPreprocessor', type=str, required=False,
                         help='[OPTIONAL] DANGER ZONE! Sets a custom preprocessor class. This class must be located in '
                              'nnunetv2.preprocessing. Default: \'DefaultPreprocessor\'. Changing this may affect your '
                              'models performance! Only use this if you really know what you '
@@ -152,16 +152,16 @@ def plan_and_preprocess_entry():
                              'know what you are doing and NEVER use this without running the default nnU-Net first '
                              '(as a baseline). Changing the target spacing for the other configurations is currently '
                              'not implemented. New target spacing must be a list of three numbers!')
-    parser.add_argument('-overwrite_plans_name', default=None, required=False,
+    parser.add_argument('-overwrite_plans_name', default='nnUNetPlansDiffusion', required=False,
                         help='[OPTIONAL] uSE A CUSTOM PLANS IDENTIFIER. If you used -gpu_memory_target, '
                              '-preprocessor_name or '
                              '-overwrite_target_spacing it is best practice to use -overwrite_plans_name to generate a '
                              'differently named plans file such that the nnunet default plans are not '
                              'overwritten. You will then need to specify your custom plans file with -p whenever '
                              'running other nnunet commands (training, inference etc)')
-    parser.add_argument('-c', required=False, default=['2d', '3d_fullres', '3d_lowres'], nargs='+',
-                        help='[OPTIONAL] Configurations for which the preprocessing should be run. Default: 2d 3d_fullres '
-                             '3d_lowres. 3d_cascade_fullres does not need to be specified because it uses the data '
+    parser.add_argument('-c', required=False, default=['3d_fullres'], nargs='+',
+                        help='[OPTIONAL] Configurations for which the preprocessing should be run. Default: 3d_fullres '
+                             '3d_cascade_fullres does not need to be specified because it uses the data '
                              'from 3d_fullres. Configurations that do not exist for some dataset will be skipped.')
     parser.add_argument('-np', type=int, nargs='+', default=None, required=False,
                         help="[OPTIONAL] Use this to define how many processes are to be used. If this is just one number then "

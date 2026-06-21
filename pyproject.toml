@@ -1,16 +1,15 @@
 [project]
-name = "nnunetv2"
-version = "2.7.0"
+name = "nndiffusion"
+version = "0.1.0"
 requires-python = ">=3.10"
-description = "nnU-Net is a framework for out-of-the box image segmentation."
+description = "nnDiffusion is an nnU-Net v2.7.0 extension for medical image modality synthesis with diffusion-style training and inference workflows."
 readme = "readme.md"
 license = { file = "LICENSE" }
 authors = [
-    { name = "Fabian Isensee", email = "f.isensee@dkfz-heidelberg.de"},
-    { name = "Helmholtz Imaging Applied Computer Vision Lab" }
+    { name = "Haowen Pang" }
 ]
 classifiers = [
-    "Development Status :: 5 - Production/Stable",
+    "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
     "Intended Audience :: Science/Research",
     "Intended Audience :: Healthcare Industry",
@@ -22,12 +21,13 @@ classifiers = [
 ]
 keywords = [
     'deep learning',
-    'image segmentation',
-    'semantic segmentation',
+    'diffusion models',
+    'image synthesis',
+    'modality synthesis',
     'medical image analysis',
-    'medical image segmentation',
+    'medical image synthesis',
     'nnU-Net',
-    'nnunet'
+    'nnDiffusion'
 ]
 dependencies = [
     "torch>=2.1.2,!=2.9.*",
@@ -55,8 +55,8 @@ dependencies = [
 ]
 
 [project.urls]
-homepage = "https://github.com/MIC-DKFZ/nnUNet"
-repository = "https://github.com/MIC-DKFZ/nnUNet"
+homepage = "https://github.com/PangHaowen-hub/nnDiffusion"
+repository = "https://github.com/PangHaowen-hub/nnDiffusion"
 
 [project.scripts]
 nnUNetv2_plan_and_preprocess = "nnunetv2.experiment_planning.plan_and_preprocess_entrypoints:plan_and_preprocess_entry"
@@ -91,6 +91,10 @@ dev = [
 [build-system]
 requires = ["setuptools>=67.8.0"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["nnunetv2*"]
+exclude = ["nnUNet_raw*", "nnUNet_preprocessed*", "nnUNet_results*"]
 
 [tool.codespell]
 skip = '.git,*.pdf,*.svg'

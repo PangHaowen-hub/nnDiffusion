@@ -616,7 +616,7 @@ class nnUNetPredictor(object):
             if not self.allow_tqdm and self.verbose:
                 print(f'running prediction: {len(slicers)} steps')
 
-            with tqdm(desc=None, total=len(slicers), disable=not self.allow_tqdm) as pbar:
+            with tqdm(desc=None, total=len(slicers), disable=True) as pbar:
                 while True:
                     item = queue.get()
                     if item == 'end':
@@ -1078,5 +1078,4 @@ if __name__ == '__main__':
         [['/media/isensee/raw_data/nnUNet_raw/Dataset004_Hippocampus/imagesTs/hippocampus_002_0000.nii.gz'], ['/media/isensee/raw_data/nnUNet_raw/Dataset004_Hippocampus/imagesTs/hippocampus_005_0000.nii.gz']],
         '/home/isensee/temp/tmp', False, True, None
     )
-
 

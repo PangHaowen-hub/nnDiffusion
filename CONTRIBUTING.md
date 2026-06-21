@@ -1,50 +1,71 @@
-# Contributing to nnU-Net
+# Contributing to nnDiffusion
 
-Thank you for your interest in contributing to nnU-Net.
+Thank you for your interest in improving nnDiffusion.
 
-nnU-Net is developed and maintained by researchers at DKFZ. There is no dedicated funding or staff for maintaining the 
-repository, and development happens alongside research and teaching responsibilities. Our bandwidth for reviewing 
-external contributions is therefore limited, and review times may be long.
+nnDiffusion is an extension of nnU-Net v2.7.0 for medical image modality synthesis with diffusion-style training and
+inference workflows. Contributions should preserve compatibility with the underlying nnU-Net workflow whenever possible,
+while keeping the diffusion-specific changes clear and maintainable.
 
-## General principles
+## Scope
 
-nnU-Net is intentionally designed to be focused, stable, and generally applicable across datasets and use cases. 
-Contributions should respect this philosophy and should not introduce unnecessary complexity or specialization.
+Contributions are welcome in the following areas:
 
-New functionality must either be generally valid across datasets and setups or convincingly benefit a large enough 
-portion of the user base. We aim to avoid bloating the framework or increasing its complexity further.
+- fixes for diffusion training, inference, preprocessing, or evaluation
+- improvements to modality-synthesis dataset handling
+- documentation updates for installation, data layout, training, inference, or evaluation
+- small refactors that make the nnDiffusion-specific logic easier to understand
+- reproducible bug reports with enough context to diagnose the issue
 
-## How to contribute
+Large rewrites, major API changes, or changes that break existing nnU-Net command-line workflows should be discussed
+before implementation.
 
-For larger features and refactors, please open a GitHub issue to discuss the idea before starting work. Tag
-@FabianIsensee so that the discussion doesn't get missed.
+## Data and Artifacts
 
-To submit a contribution, fork the repository, make your changes on a branch, and open a pull request.
+Do not commit local medical image data or generated experiment artifacts.
 
-## Bug reports and bug fixes
+The repository may include lightweight dataset manifests such as:
 
-Bug reports must include a minimal reproducible example. Without a repro, it is usually impossible for us to 
-investigate issues.
+- `nnUNet_raw/Dataset*/dataset.json`
+- `nnUNet_raw/Dataset*/dataset_test.json`
 
-Pull requests fixing bugs should also include a clear reproduction of the issue and an explanation of how the fix 
-resolves it.
+The repository should not include:
 
-## Performance improvements
+- `.nii.gz`, `.nii`, or other medical image volumes
+- model checkpoints such as `.pth`, `.pt`, `.ckpt`, or `.safetensors`
+- generated predictions, logs, caches, or local run outputs
+- personal environment files or machine-specific paths
 
-If a pull request claims performance improvements, it must include benchmarks demonstrating the effect. The benchmark 
-setup must be described clearly enough for us to reproduce the results independently. We may run additional 
-tests ourselves before merging.
+Dataset manifests should use relative paths so that users can place their own local data under the documented directory
+layout without changing the JSON files.
 
-## Contributions that are unlikely to be merged
+## Development Workflow
 
-To keep the framework maintainable and the workload manageable on our end, we deprioritize:
+1. Create a dedicated Python environment.
+2. Install the project in editable mode with `pip install -e .`.
+3. Make focused changes on a separate branch.
+4. Keep changes scoped to the issue being addressed.
+5. Run the most relevant command or script to validate the change before opening a pull request.
 
-- dataset-specific code
-- features that only apply to niche setups
-- narrow custom architectures or training pipelines
-- large refactorings without prior discussion
-- small PRs fixing minor typos or formatting issues
+For code changes, include a short explanation of:
 
-## Final note
+- what changed
+- why the change is needed
+- how it was tested
 
-We appreciate the effort people invest in improving nnU-Net!
+For bug fixes, include the command, configuration, or dataset condition that reproduced the issue.
+
+## Style
+
+Follow the surrounding code style. Prefer small, direct changes over broad refactors. When adding diffusion-specific
+logic to nnU-Net-derived code paths, keep the distinction clear with concise names and comments where helpful.
+
+Documentation should be written so that a new user can reproduce the expected setup without access to private local
+paths.
+
+## Upstream Attribution
+
+This project is derived from nnU-Net v2.7.0. Keep the Apache-2.0 license, upstream attribution, and citation information
+intact. Do not remove existing upstream copyright or license headers from source files.
+
+For contributions that are intended for the original nnU-Net project rather than nnDiffusion, please refer to the
+upstream repository: <https://github.com/MIC-DKFZ/nnUNet>.

@@ -1,7 +1,7 @@
 import multiprocessing
 import os
 from time import sleep
-from typing import List, Type, Union
+from typing import List, Type, Union, Tuple
 
 import numpy as np
 from batchgenerators.utilities.file_and_folder_operations import load_json, join, save_json, isfile, maybe_mkdir_p
@@ -88,11 +88,15 @@ class DatasetFingerprintExtractor(object):
         return intensities_per_channel, intensity_statistics_per_channel
 
     @staticmethod
-    def analyze_case(image_files: List[str], segmentation_file: str, reader_writer_class: Type[BaseReaderWriter],
+    def analyze_case(image_files: List[str], segmentation_file: Union[str, List[str], Tuple[str, ...]],
+                     reader_writer_class: Type[BaseReaderWriter],
                      num_samples: int = 10000):
         rw = reader_writer_class()
         images, properties_images = rw.read_images(image_files)
-        segmentation, properties_seg = rw.read_seg(segmentation_file)
+        if isinstance(segmentation_file, (list, tuple)):
+            segmentation, properties_seg = rw.read_images(segmentation_file)
+        else:
+            segmentation, properties_seg = rw.read_seg(segmentation_file)
 
         # we no longer crop and save the cropped images before this is run. Instead we run the cropping on the fly.
         # Downside is that we need to do this twice (once here and once during preprocessing). Upside is that we don't

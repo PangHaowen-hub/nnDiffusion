@@ -233,7 +233,7 @@ python nnunetv2/inference/predict_from_raw_data_Diffusion.py \
 If you use this code, please cite:
 
 ```bibtex
-@inproceedings{nndiffusion2026pang,
+@inproceedings{pang2026nndiffusion,
   title={nnDiffusion: A Standardized 3D Diffusion Framework for Medical Image Synthesis},
   author={Pang, Haowen and Zhu, Pengli and Chen, Shannan and Hong, Xiaoming and Ye, Chuyang},
   booktitle={International Workshop on Simulation and Synthesis in Medical Imaging},
